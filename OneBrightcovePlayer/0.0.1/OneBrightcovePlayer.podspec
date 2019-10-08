@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "OneBrightcovePlayer"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Player implemenation for brightcove"
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  spec.source       = { :http => 'file:' + __dir__ + "/" }
+  spec.source       = { :git => "https://github.com/emelelias/OneBrightCoveplayer.git", :tag => "#{spec.version}" }
 
   #spec.source       = { :git => "http://EXAMPLE/Brightcove.git", :tag => "#{spec.version}" }
 
