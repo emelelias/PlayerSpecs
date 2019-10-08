@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  spec.source       = { :git => "https://github.com/emelelias/OneBrightCoveplayer.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:emelelias/OneBrightCovePlayer.git", :tag => "#{spec.version}" }
 
   #spec.source       = { :git => "http://EXAMPLE/Brightcove.git", :tag => "#{spec.version}" }
 
