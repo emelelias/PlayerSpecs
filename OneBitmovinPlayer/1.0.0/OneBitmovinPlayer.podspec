@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "OneBitmovinPlayer"
   spec.version      = "1.0.0"
-  spec.summary      = "Player implemenation for bitmovin"
+  spec.summary      = "Player implemenation for bitmovin'"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Implementaion of bitmovin player"
+  spec.description  = "Implementaion of brightcove player"
 
   spec.homepage     = "http://EXAMPLE/Brightcove"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'BitmovinPlayer', :git => 'https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git', tag:'2.32.0'
+  spec.dependency 'Brightcove-Player-IMA', '~> 2.32.0'
 
 end
