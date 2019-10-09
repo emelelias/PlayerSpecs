@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'Brightcove-Player-IMA', :git => 'https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git', tag:'2.32.0'
+  spec.dependency 'BitmovinPlayer', :git => 'https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git', tag:'2.32.0'
 
 end
